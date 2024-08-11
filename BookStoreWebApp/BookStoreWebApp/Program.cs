@@ -1,7 +1,11 @@
 using BookStoreWebApp;
 using BookStoreWebApp.DatabaseContext;
+using BookStoreWebApp.Repositories;
+using BookStoreWebApp.Repositories.Implements;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 using MySqlConnector;
+using System.Reflection;
 
 /* builder is a module:
  * - used to control dependency injection
@@ -11,10 +15,38 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+
+builder.Services.AddSwaggerGen(swagger =>
+{
+    swagger.SwaggerDoc("v1", new OpenApiInfo {
+        Title = "Bookstore API",
+        Version = "v1",
+        Description = "APIs for developing Rook Book Store",
+        TermsOfService = new Uri("https://example.com/terms"),
+        Contact = new OpenApiContact
+        {
+            Name = "Nguyen Duy Linh",
+            Email = "linhnd1899@gmail.com",
+            Url = new Uri("https://example.com/terms")
+        },
+        License = new OpenApiLicense
+        {
+            Name = "Rook BookStore API LICS",
+            Url = new Uri("https://example.com/license")
+        }
+    });
+
+    var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+
+    // config swagger to read xml comments to generate
+    swagger.IncludeXmlComments(xmlPath);
+});
 
 /* 
   - builder.Services accesses the service collection that holds the definitions of services that will be available for dependency injection
@@ -39,6 +71,7 @@ var app = builder.Build();
 // Control your middlewears
 if (app.Environment.IsDevelopment())
 {
+    // middleware swagger
     app.UseSwagger();
     app.UseSwaggerUI();
 

@@ -1,4 +1,4 @@
-﻿using BookStoreWebApp.Models;
+﻿using BookStoreWebApp.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace BookStoreWebApp.DatabaseContext
@@ -13,12 +13,12 @@ namespace BookStoreWebApp.DatabaseContext
 
 
         // DbSet is to store the data we get after query
-        public DbSet<CategoryModel> tblcategories { get; set; }
-        public DbSet<BookModel> tblbooks { get; set; }
-        public DbSet<UserModel> tblusers { get; set; }
-        public DbSet<RoleModel> tblroles { get; set; }
-        public DbSet<BlogModel> tblblog { get; set; }
-        public DbSet<CommentModel> tblcomments { get; set; }
+        public DbSet<CategoryModel> Categories { get; set; }
+        public DbSet<BookModel> Books { get; set; }
+        public DbSet<UserModel> Users { get; set; }
+        public DbSet<RoleModel> Roles { get; set; }
+        public DbSet<BlogModel> Blogs { get; set; }
+        public DbSet<CommentModel> Comments { get; set; }
 
         // Configuring for Abstract Base Model for all other Models
         private void ConfigureBaseEntity<TAnyModel>(ModelBuilder modelBuilder) where TAnyModel : AbstractBaseModel{

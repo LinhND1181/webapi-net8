@@ -1,13 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace BookStoreWebApp.Models
+namespace BookStoreWebApp.Domain.Entities
 {
     [Table("tblcomments")]
     public class CommentModel : AbstractBaseModel
     {
         [Required, Column("content"), DataType(DataType.Text)]
-        public String Content { get; set; } = String.Empty;
+        public string Content { get; set; } = string.Empty;
 
         [Column("user_id"), ForeignKey("id")]
         public long UserId { get; set; }

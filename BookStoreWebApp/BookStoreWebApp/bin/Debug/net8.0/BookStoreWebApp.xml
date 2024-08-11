@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BookStoreWebApp</name>
+    </assembly>
+    <members>
+        <member name="M:BookStoreWebApp.Controllers.CategoryController.getAllCategories">
+            <summary>
+            Retrieves a list of all categories.
+            </summary>
+            <remarks>
+            This endpoint returns a list of categories available in the system.
+            </remarks>
+            <returns>A list of categories.</returns>
+            <response code="200">Returns the list of categories.</response>
+            <response code="404">If no categories are found.</response>
+        </member>
+        <member name="T:BookStoreWebApp.Migrations.Initializing">
+            <inheritdoc />
+        </member>
+        <member name="M:BookStoreWebApp.Migrations.Initializing.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:BookStoreWebApp.Migrations.Initializing.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:BookStoreWebApp.Migrations.Initializing.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:BookStoreWebApp.Migrations.Version3_AddBlogModel">
+            <inheritdoc />
+        </member>
+        <member name="M:BookStoreWebApp.Migrations.Version3_AddBlogModel.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:BookStoreWebApp.Migrations.Version3_AddBlogModel.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:BookStoreWebApp.Migrations.Version3_AddBlogModel.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:BookStoreWebApp.Migrations.Version4_UpdateBlog_AddComment">
+            <inheritdoc />
+        </member>
+        <member name="M:BookStoreWebApp.Migrations.Version4_UpdateBlog_AddComment.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:BookStoreWebApp.Migrations.Version4_UpdateBlog_AddComment.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:BookStoreWebApp.Migrations.Version4_UpdateBlog_AddComment.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace BookStoreWebApp.Models
+namespace BookStoreWebApp.Domain.Entities
 {
     public class AbstractBaseModel
     {

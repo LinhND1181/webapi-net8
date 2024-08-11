@@ -3,23 +3,23 @@ using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace BookStoreWebApp.Models
+namespace BookStoreWebApp.Domain.Entities
 {
     [Table("tblblogs")]
-    [Index(nameof(BlogModel.Title), IsUnique = true)]
+    [Index(nameof(Title), IsUnique = true)]
     public class BlogModel : AbstractBaseModel
     {
         [Required, Column("title")]
-        public String Title { get; set; } = String.Empty;
+        public string Title { get; set; } = string.Empty;
 
         [Column("content"), DataType("TEXT")]
-        public String Content { get; set; } = String.Empty;
+        public string Content { get; set; } = string.Empty;
 
         [Column("summary"), DataType("TEXT")]
-        public String Summary { get; set; } = String.Empty;
+        public string Summary { get; set; } = string.Empty;
 
         [Column("thumbnail")]
-        public String Thumbnail { get; set; } = String.Empty;
+        public string Thumbnail { get; set; } = string.Empty;
 
         [Column("user_id")]
         public long UserId { get; set; }
