@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "OL525VSIqiP7wcRLeIUEQbYaPLqlhEVKer8OeMQGbSc=",
+  "Source": "BookStoreWebApp",
+  "BasePath": "_content/BookStoreWebApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

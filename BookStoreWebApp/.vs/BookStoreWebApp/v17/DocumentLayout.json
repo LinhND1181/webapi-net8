@@ -1,0 +1,158 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.NET-Projects\\WebAPI_NET8\\BookStoreWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7418CC56-AB38-4F4E-8571-B4E09C4B9583}|BookStoreWebApp\\BookStoreWebApp.csproj|d:\\.net-projects\\webapi_net8\\bookstorewebapp\\bookstorewebapp\\databasecontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7418CC56-AB38-4F4E-8571-B4E09C4B9583}|BookStoreWebApp\\BookStoreWebApp.csproj|solutionrelative:bookstorewebapp\\databasecontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7418CC56-AB38-4F4E-8571-B4E09C4B9583}|BookStoreWebApp\\BookStoreWebApp.csproj|d:\\.net-projects\\webapi_net8\\bookstorewebapp\\bookstorewebapp\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7418CC56-AB38-4F4E-8571-B4E09C4B9583}|BookStoreWebApp\\BookStoreWebApp.csproj|solutionrelative:bookstorewebapp\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7418CC56-AB38-4F4E-8571-B4E09C4B9583}|BookStoreWebApp\\BookStoreWebApp.csproj|d:\\.net-projects\\webapi_net8\\bookstorewebapp\\bookstorewebapp\\models\\blogmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7418CC56-AB38-4F4E-8571-B4E09C4B9583}|BookStoreWebApp\\BookStoreWebApp.csproj|solutionrelative:bookstorewebapp\\models\\blogmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7418CC56-AB38-4F4E-8571-B4E09C4B9583}|BookStoreWebApp\\BookStoreWebApp.csproj|d:\\.net-projects\\webapi_net8\\bookstorewebapp\\bookstorewebapp\\models\\commentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7418CC56-AB38-4F4E-8571-B4E09C4B9583}|BookStoreWebApp\\BookStoreWebApp.csproj|solutionrelative:bookstorewebapp\\models\\commentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7418CC56-AB38-4F4E-8571-B4E09C4B9583}|BookStoreWebApp\\BookStoreWebApp.csproj|d:\\.net-projects\\webapi_net8\\bookstorewebapp\\bookstorewebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7418CC56-AB38-4F4E-8571-B4E09C4B9583}|BookStoreWebApp\\BookStoreWebApp.csproj|solutionrelative:bookstorewebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7418CC56-AB38-4F4E-8571-B4E09C4B9583}|BookStoreWebApp\\BookStoreWebApp.csproj|d:\\.net-projects\\webapi_net8\\bookstorewebapp\\bookstorewebapp\\models\\rolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7418CC56-AB38-4F4E-8571-B4E09C4B9583}|BookStoreWebApp\\BookStoreWebApp.csproj|solutionrelative:bookstorewebapp\\models\\rolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7418CC56-AB38-4F4E-8571-B4E09C4B9583}|BookStoreWebApp\\BookStoreWebApp.csproj|d:\\.net-projects\\webapi_net8\\bookstorewebapp\\bookstorewebapp\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7418CC56-AB38-4F4E-8571-B4E09C4B9583}|BookStoreWebApp\\BookStoreWebApp.csproj|solutionrelative:bookstorewebapp\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7418CC56-AB38-4F4E-8571-B4E09C4B9583}|BookStoreWebApp\\BookStoreWebApp.csproj|d:\\.net-projects\\webapi_net8\\bookstorewebapp\\bookstorewebapp\\models\\userrolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7418CC56-AB38-4F4E-8571-B4E09C4B9583}|BookStoreWebApp\\BookStoreWebApp.csproj|solutionrelative:bookstorewebapp\\models\\userrolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.NET-Projects\\WebAPI_NET8\\BookStoreWebApp\\BookStoreWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "BookStoreWebApp\\Program.cs",
+              "ToolTip": "D:\\.NET-Projects\\WebAPI_NET8\\BookStoreWebApp\\BookStoreWebApp\\Program.cs",
+              "RelativeToolTip": "BookStoreWebApp\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAsAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T06:42:49.2Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RoleModel.cs",
+              "DocumentMoniker": "D:\\.NET-Projects\\WebAPI_NET8\\BookStoreWebApp\\BookStoreWebApp\\Models\\RoleModel.cs",
+              "RelativeDocumentMoniker": "BookStoreWebApp\\Models\\RoleModel.cs",
+              "ToolTip": "D:\\.NET-Projects\\WebAPI_NET8\\BookStoreWebApp\\BookStoreWebApp\\Models\\RoleModel.cs",
+              "RelativeToolTip": "BookStoreWebApp\\Models\\RoleModel.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T17:03:27.451Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CommentModel.cs",
+              "DocumentMoniker": "D:\\.NET-Projects\\WebAPI_NET8\\BookStoreWebApp\\BookStoreWebApp\\Models\\CommentModel.cs",
+              "RelativeDocumentMoniker": "BookStoreWebApp\\Models\\CommentModel.cs",
+              "ToolTip": "D:\\.NET-Projects\\WebAPI_NET8\\BookStoreWebApp\\BookStoreWebApp\\Models\\CommentModel.cs",
+              "RelativeToolTip": "BookStoreWebApp\\Models\\CommentModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T04:19:19.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BlogModel.cs",
+              "DocumentMoniker": "D:\\.NET-Projects\\WebAPI_NET8\\BookStoreWebApp\\BookStoreWebApp\\Models\\BlogModel.cs",
+              "RelativeDocumentMoniker": "BookStoreWebApp\\Models\\BlogModel.cs",
+              "ToolTip": "D:\\.NET-Projects\\WebAPI_NET8\\BookStoreWebApp\\BookStoreWebApp\\Models\\BlogModel.cs",
+              "RelativeToolTip": "BookStoreWebApp\\Models\\BlogModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-10T12:33:29.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "D:\\.NET-Projects\\WebAPI_NET8\\BookStoreWebApp\\BookStoreWebApp\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "BookStoreWebApp\\Models\\UserModel.cs",
+              "ToolTip": "D:\\.NET-Projects\\WebAPI_NET8\\BookStoreWebApp\\BookStoreWebApp\\Models\\UserModel.cs",
+              "RelativeToolTip": "BookStoreWebApp\\Models\\UserModel.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowCYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T16:31:39.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\.NET-Projects\\WebAPI_NET8\\BookStoreWebApp\\BookStoreWebApp\\DatabaseContext\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BookStoreWebApp\\DatabaseContext\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\.NET-Projects\\WebAPI_NET8\\BookStoreWebApp\\BookStoreWebApp\\DatabaseContext\\ApplicationDbContext.cs",
+              "RelativeToolTip": "BookStoreWebApp\\DatabaseContext\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T17:06:38.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRoleModel.cs",
+              "DocumentMoniker": "D:\\.NET-Projects\\WebAPI_NET8\\BookStoreWebApp\\BookStoreWebApp\\Models\\UserRoleModel.cs",
+              "RelativeDocumentMoniker": "BookStoreWebApp\\Models\\UserRoleModel.cs",
+              "ToolTip": "D:\\.NET-Projects\\WebAPI_NET8\\BookStoreWebApp\\BookStoreWebApp\\Models\\UserRoleModel.cs",
+              "RelativeToolTip": "BookStoreWebApp\\Models\\UserRoleModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T17:03:11.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryModel.cs",
+              "DocumentMoniker": "D:\\.NET-Projects\\WebAPI_NET8\\BookStoreWebApp\\BookStoreWebApp\\Models\\CategoryModel.cs",
+              "RelativeDocumentMoniker": "BookStoreWebApp\\Models\\CategoryModel.cs",
+              "ToolTip": "D:\\.NET-Projects\\WebAPI_NET8\\BookStoreWebApp\\BookStoreWebApp\\Models\\CategoryModel.cs",
+              "RelativeToolTip": "BookStoreWebApp\\Models\\CategoryModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T07:15:26.751Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
