@@ -3,10 +3,10 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Diagnostics.CodeAnalysis;
 
-namespace BookStoreWebApp.Models
+namespace BookStoreWebApp.Domain.Entities
 {
     [Table("tblcategories")]
-    [Index(nameof(CategoryModel.Name), IsUnique = true)]
+    [Index(nameof(Name), IsUnique = true)]
     public class CategoryModel : AbstractBaseModel
     {
 
